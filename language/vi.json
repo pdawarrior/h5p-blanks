@@ -1,56 +1,53 @@
-{
+﻿{
   "semantics": [
     {
-      "label": "Media",
+      "label": "Đa phương tiện",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
-        },
-        {
-          "label": "Disable image zooming"
+          "label": "Loại",
+          "description": "Đa phương tiện tùy chọn để hiển thị phía trên câu hỏi."
         }
       ]
     },
     {
-      "label": "Task description",
-      "default": "Fill in the missing words",
-      "description": "A guide telling the user how to answer this task."
+      "label": "Mô tả nhiệm vụ",
+      "default": "Điền vào những từ thiếu",
+      "description": "Hướng dẫn cho người dùng biết cách trả lời tác vụ này."
     },
     {
-      "label": "Text blocks",
+      "label": "Khối văn bản",
       "entity": "text block",
       "field": {
-        "label": "Line of text",
-        "placeholder": "Oslo is the capital of *Norway*.",
+        "label": "Dòng văn bản",
+        "placeholder": "Oslo là thủ đô của Na-uy. ",
         "description": "",
         "important": {
-          "description": "<ul><li>Blanks are added with an asterisk (*) in front and behind the correct word/phrase.</li><li>Alternative answers are separated with a forward slash (/).</li><li>You may add a textual tip, using a colon (:) in front of the tip.</li></ul>",
-          "example": "H5P content may be edited using a *browser/web-browser:Something you use every day*."
+          "description": "<ul><li>Khoảng trống được thêm bằng dấu hoa thị (*) ở phía trước và phía sau từ/cụm từ đúng.</li><li>Các câu trả lời thay thế được phân tách bằng dấu gạch chéo (/).</li><li>Bạn có thể thêm gợi ý bằng văn bản, sử dụng dấu hai chấm (:) ở phía trước của gợi ý.</li></ul>",
+          "example": "Nội dung H5P có thể được chỉnh sửa bằng *trình duyệt/trình duyệt web: Thứ gì đó bạn sử dụng hàng ngày*."
         }
       }
     },
     {
-      "label": "Overall Feedback",
+      "label": "Phản hồi tổng thể",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "Mặc định"
             }
           ],
-          "label": "Define custom feedback for any score range",
-          "description": "Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
+          "label": "Xác định phản hồi tùy chỉnh cho bất kỳ thang điểm nào",
+          "description": "Nhấp vào nút \"Thêm thang\" để thêm bao nhiêu thang điểm bạn cần. Ví dụ: 0-20% Điểm kém, 21-91% Điểm trung bình, 91-100% Điểm tuyệt vời!",
           "entity": "range",
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "Thang điểm"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "Phản hồi cho thang điểm được xác định",
+                "placeholder": "Điền vào phản hồi"
               }
             ]
           }
@@ -58,138 +55,141 @@
       ]
     },
     {
-      "label": "Text for \"Show solutions\" button",
-      "default": "Show solution"
+      "label": "Văn bản cho nút \"Hiển thị lời giải\"",
+      "default": "Hiển thị lời giải"
     },
     {
-      "label": "Text for \"Retry\" button",
-      "default": "Retry"
+      "label": "Văn bản cho nút \"Thử lại\"",
+      "default": "Thử lại"
     },
     {
-      "label": "Text for \"Check\" button",
-      "default": "Check"
+      "label": "Văn bản cho nút \"Kiểm tra\"",
+      "default": "Kiểm tra"
     },
     {
-      "label": "Text for \"Not filled out\" message",
-      "default": "Please fill in all blanks to view solution"
+      "label": "Văn bản cho thông điệp \"Không điền\"",
+      "default": "Vui lòng điền vào tất cả các khoảng trống để xem lời giải"
     },
     {
-      "label": "Text for \"':ans' is correct\" message",
-      "default": "':ans' is correct"
+      "label": "Văn bản cho thông điệp \"':ans' là đúng\"",
+      "default": "':ans' là đúng"
     },
     {
-      "label": "Text for \"':ans' is wrong\" message",
-      "default": "':ans' is wrong"
+      "label": "Văn bản cho thông điệp \"':ans' là sai\"",
+      "default": "':ans' là sai"
     },
     {
-      "label": "Text for \"Answered correctly\" message",
-      "default": "Answered correctly"
+      "label": "Văn bản cho thông điệp \"Đã trả lời đúng\"",
+      "default": "Đã trả lời đúng"
     },
     {
-      "label": "Text for \"Answered incorrectly\" message",
-      "default": "Answered incorrectly"
+      "label": "Văn bản cho thông điệp \"Đã trả lời sai\"",
+      "default": "Đã trả lời sai"
     },
     {
-      "label": "Assistive technology label for solution",
-      "default": "Correct answer:"
+      "label": "Nhãn công nghệ hỗ trợ cho lời giải",
+      "default": "Câu trả lời đúng:"
     },
     {
-      "label": "Assistive technology label for input field",
-      "description": "Use @num and @total to replace current cloze number and total cloze number",
-      "default": "Blank input @num of @total"
+      "label": "Nhãn công nghệ hỗ trợ cho trường điền",
+      "description": "Sử dụng @num và @total để thay thế số điền hiện tại và tổng số điền",
+      "default": "Đầu vào trống @num của @total"
     },
     {
-      "label": "Assistive technology label for saying an input has a tip tied to it",
-      "default": "Tip available"
+      "label": "Nhãn công nghệ hỗ trợ để nói chỗ điền có một gợi ý gắn với nó",
+      "default": "Gợi ý có sẵn"
     },
     {
-      "label": "Tip icon label",
-      "default": "Tip"
+      "label": "Nhãn biểu tượng gợi ý",
+      "default": "Gợi ý"
     },
     {
-      "label": "Behavioural settings.",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Cài đặt hành vi.",
+      "description": "Các tùy chọn này sẽ cho phép bạn kiểm soát cách thức thực hiện tác vụ.",
       "fields": [
         {
-          "label": "Enable \"Retry\""
+          "label": "Kích hoạt \"Thử lại\""
         },
         {
-          "label": "Enable \"Show solution\" button"
+          "label": "Kích hoạt nút \"Hiển thị\" lời giải"
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "Kích hoạt nút \"Kiểm tra\""
         },
         {
-          "label": "Automatically check answers after input"
+          "label": "Tự động kiểm tra câu trả lời sau khi nhập"
         },
         {
-          "label": "Case sensitive",
-          "description": "Makes sure the user input has to be exactly the same as the answer."
+          "label": "Phân biệt chữ hoa chữ thường",
+          "description": "Đảm bảo phần điền của người dùng phải giống hệt như câu trả lời."
         },
         {
-          "label": "Require all fields to be answered before the solution can be viewed"
+          "label": "Yêu cầu tất cả các trường được trả lời trước khi có thể xem lời giải"
         },
         {
-          "label": "Put input fields on separate lines"
+          "label": "Đặt các trường điền trên các dòng riêng biệt"
         },
         {
-          "label": "Show confirmation dialog on \"Check\"",
-          "description": "This options is not compatible with the \"Automatically check answers after input\" option"
+          "label": "Vô hiệu hóa thu phóng hình ảnh cho hình ảnh câu hỏi"
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "Hiển thị hộp thoại xác nhận trên \"Kiểm tra\"",
+          "description": "Tùy chọn này không tương thích với tùy chọn \"Tự động kiểm tra câu trả lời sau khi nhập\""
         },
         {
-          "label": "Accept minor spelling errors",
-          "description": "If activated, an answer will also count as correct with minor spelling errors (3-9 characters: 1 spelling error, more than 9 characters: 2 spelling errors)"
+          "label": "Hiển thị hộp thoại xác nhận trên \"Thử lại\""
+        },
+        {
+          "label": "Chấp nhận lỗi chính tả nhỏ",
+          "description": "Nếu được kích hoạt, một câu trả lời cũng sẽ được tính là chính xác với các lỗi chính tả nhỏ (3-9 ký tự: 1 lỗi chính tả, hơn 9 ký tự: 2 lỗi chính tả)"
         }
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "Hộp thoại xác nhận kiểm tra",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Finish ?"
+          "label": "Văn bản tiêu đề",
+          "default": "Kết thúc?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to finish ?"
+          "label": "Văn bản nội dung",
+          "default": "Bạn có chắc chắn muốn kết thúc?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "Nhãn nút hủy",
+          "default": "Hủy"
         },
         {
-          "label": "Confirm button label",
-          "default": "Finish"
+          "label": "Nhãn nút xác nhận",
+          "default": "Kết thúc"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "Hộp thoại xác nhận thử lại",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Retry ?"
+          "label": "Văn bản tiêu đề",
+          "default": "Thử lại?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to retry ?"
+          "label": "Văn bản nội dung",
+          "default": "Bạn có chắc chắn muốn thử lại không?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "Nhãn nút hủy",
+          "default": "Hủy"
         },
         {
-          "label": "Confirm button label",
-          "default": "Confirm"
+          "label": "Nhãn nút xác nhận",
+          "default": "Xác nhận"
         }
       ]
     },
     {
-      "label": "Textual representation of the score bar for those using a readspeaker",
-      "default": "You got :num out of :total points"
+      "label": "Trình bày văn bản của thanh điểm cho những người sử dụng bộ đọc",
+      "default": "Bạn đã nhận :num trong :total điểm"
     }
   ]
 }
